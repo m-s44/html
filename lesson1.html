@@ -1,23 +1,84 @@
 <!DOCTYPE html>
 <html lang="Ja">
   <head>
-    <base href="http://localhost/git_benkyo/">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <!--<meta http-equiv="refresh" content="10; URL=html/lesson2.html">-->
-    <meta name="keywords" content="html, HTML">
-    <title title="タイトル">html_lesson</title>
-    <meta name="title" content="TAC index">
-    <link rel="stylesheet" href="css/lesson1.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <meta name="keywords" content="html,HTML,ｈｔｍｌ,勉強">
+    <title>HTML1</title>
+    <base href="http://localhost/git_benkyo/html/">
+    <link rel="stylesheet" rev="html" type="text/css">
   </head>
   <body>
-    <p id="hoge" class="test1 test2" title="body" tabindex="2" dir="ltl">レッスン</p>
-    <p id="hoge2" class="test1 test2" title="body2" tabindex="1">レッスン2</p>
-    <p id="hoge2" class="test1 test2" title="body2" tabindex="3">レッスン3
-      文章の中に
-      <em dir="rtl">文字を強調する。</em>
-    </p>
-    <a class="test1" href="lesson2.html" tabindex="5">リンク1</a>
-    <a class="test1" href="lesson3.html" tabindex="6">リンク2</a>
+    <header>
+      <h1>株式会社</h1>
+      <nav>
+        <ul>
+          <li><a href="lesson2.html" target="_blunk">ホーム</a></li>
+          <li><a href="lesson3.html">お知らせ</a></li>
+          <li><a href="lesson1.html" type="text/html">製品情報</a></li>
+          <li><a href="lesson1.html" download="test.txt">ダウンロード</a></li>
+          <li><a href="lesson1.html" type="text/html"><strong>重要</strong></a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="elemet">
+        <p title="iタグ">
+        <i>iタグ:</i>違う性質のものに切り替わっているタグ示す
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="sタグ">
+        <s>sタグ:すでにただしい情報ではなくなったタグを示す</s>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="bdoタグ">
+        <bdo dir="rtl">bdoタグ:タグ内のテキストを左から右へ表示するのか、左から右へ表示するのかをグローバルタグのdir属性を使って設定するタグ</bdo>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="preタグ">
+        <pre>タグ内容を入力されている通りにそのまま表示する</pre>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="codeタグ">
+          <span>ソースコードであることを示すタグ<span>
+          <pre>
+            <code>
+            </code>
+          </pre>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="kbdタグ">
+        ユーザーが操作する内容であることを示すタグ<br>
+          <input type="button" value="クリック"></br>
+          <kbd>上記ボタンをクリックしてください</kbd>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="supタグ">
+          <sup>上付き文字であることを示すタグ</sup>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="wbrタグ">
+          英単語やURLの途中でも行を折り返すことができる要素
+          Hello<wbr>test<wbr>root<wbr>hoge
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="insタグ">
+          <ins>文書に追加した内容を示すタグ</ins>
+        </p>
+      </div>
+      <div class="elemet">
+        <p title="delタグ">
+          <del>文書から削除した内容を示すタグ</del>
+        </p>
+      </div>
+    </section>
   </body>
 </html>
