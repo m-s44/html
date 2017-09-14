@@ -118,9 +118,10 @@ function MyObject(value) {
     this.value++;
   };
 }
-myObject = new MyObject(100);
-console.log(myObject.value);
-
+//コンストラクタ
+myObject = new MyObject(1);
+//console.log(myObject.value);
+//メソッド呼び出し
 myObject.increment();
 console.log(myObject.value);
 
@@ -149,6 +150,26 @@ plus = (x, y) => {
   return x + y;
 }
 let num = plus(1, 1);
+
+plus = (x, y) => x * y;
+console.log(plus(100, 2));
+
+let month = (num1, num2) => {
+  const str1 = "１つ目の数字は" + num1 + "<br>";
+  const str2 = "２つ目の数字は" + num2 + "<br>";
+  const total = num1 + num2;
+  const result = "合計の数字は" + total + "です<br>";
+  return str1 + str2 + result;
+}
+//document.write(month(100, 100));
+
+//分割代入
+const [str, age] = ['Koyabu' ,20];
+console.log(str);
+
+let foo = [1, 2, 3];
+{
+}
 
 
 
