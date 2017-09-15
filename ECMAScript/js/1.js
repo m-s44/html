@@ -151,6 +151,12 @@ plus = (x, y) => {
 }
 let num = plus(1, 1);
 
+const piyo = (str1, str2, str3) => {
+  let bard = str1 + str2 + str3;
+  return bard;
+}
+console.log(piyo("test", "hoge", "piyo"));
+
 plus = (x, y) => x * y;
 console.log(plus(100, 2));
 
