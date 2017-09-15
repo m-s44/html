@@ -169,6 +169,10 @@ let month = (num1, num2) => {
 }
 //document.write(month(100, 100));
 
+const str = (str1, str2) => return str1 + str2;
+const test = str("hoge", "test");
+console.log(test);
+
 //分割代入
 const [str, age] = ['Koyabu' ,20];
 console.log(str);
