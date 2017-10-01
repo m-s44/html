@@ -178,8 +178,8 @@ const [str, age] = ['Koyabu' ,20];
 console.log(str);
 
 let foo = [1, 2, 3];
-{
-}
+
+
 
 
 
